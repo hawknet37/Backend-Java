@@ -9,7 +9,7 @@ public class HelloWorld {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner sc = new Scanner(new File("D:\\Java\\re_f00\\src\\input.txt"));
         PrintWriter pw = new PrintWriter(new File("D:\\Java\\re_f00\\src\\output.txt"));
-        int sumValue = 0;
+        int sumValue = 00;
         while(sc.hasNext()) {
             sumValue += sc.nextInt();
         }
